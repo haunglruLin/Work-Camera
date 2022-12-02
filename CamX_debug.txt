@@ -1,0 +1,370 @@
+QCT Camera BSP leader Erwin : 02-66389477
+
+
+150  // The verbosity tag for a given debug print message
+151  typedef UINT32 CamxLog;
+152  static const CamxLog CamxLogDebug                   = 0;            ///< Debug messages
+153  static const CamxLog CamxLogError                   = 1;            ///< Error messages
+154  static const CamxLog CamxLogWarning                 = 2;            ///< Warning messages
+155  static const CamxLog CamxLogConfig                  = 3;            ///< Config messages
+156  static const CamxLog CamxLogInfo                    = 4;            ///< Informational messages
+157  static const CamxLog CamxLogVerbose                 = 5;            ///< Verbose messages
+158  static const CamxLog CamxLogPerfInfo                = 6;            ///< Performance info message
+159  static const CamxLog CamxLogPerfWarning             = 7;            ///< Performance warning message
+160  static const CamxLog CamxLogDRQ                     = 8;            ///< DRQ logging
+161  static const CamxLog CamxLogMeta                    = 9;            ///< Metadata logging
+162  static const CamxLog CamxLogEntryExit               = 10;           ///< Entry/Exit messages
+163  static const CamxLog CamxLogReqMap                  = 11;           ///< Request mapping messages
+164  static const CamxLog CamxLogDump                    = 12;           ///< Recovery Dump messages
+165  static const CamxLog CamxLogCoreCfg                 = 13;           ///< Core Config messages
+166  static const CamxLog CamxLogMax                     = 14;           ///< Max verbosity levels
+
+typedef UINT64 CamxLogGroup;
+  static const CamxLogGroup CamxLogGroupAFD           = (static_cast<UINT64>(1) << 0);    ///< AFD
+  static const CamxLogGroup CamxLogGroupSensor        = (static_cast<UINT64>(1) << 1);    ///< Sensor
+  static const CamxLogGroup CamxLogGroupTracker       = (static_cast<UINT64>(1) << 2);    ///< Tracker
+  static const CamxLogGroup CamxLogGroupISP           = (static_cast<UINT64>(1) << 3);    ///< ISP
+  static const CamxLogGroup CamxLogGroupPProc         = (static_cast<UINT64>(1) << 4);    ///< Post Processor
+  static const CamxLogGroup CamxLogGroupMemMgr        = (static_cast<UINT64>(1) << 5);    ///< MemMgr
+  static const CamxLogGroup CamxLogGroupPower         = (static_cast<UINT64>(1) << 6);    ///< Power (clock, bandwidth related)
+  static const CamxLogGroup CamxLogGroupHAL           = (static_cast<UINT64>(1) << 7);    ///< HAL
+  static const CamxLogGroup CamxLogGroupJPEG          = (static_cast<UINT64>(1) << 8);    ///< JPEG
+  static const CamxLogGroup CamxLogGroupStats         = (static_cast<UINT64>(1) << 9);    ///< Stats
+  static const CamxLogGroup CamxLogGroupCSL           = (static_cast<UINT64>(1) << 10);   ///< CSL
+  static const CamxLogGroup CamxLogGroupApp           = (static_cast<UINT64>(1) << 11);   ///< Application
+  static const CamxLogGroup CamxLogGroupUtils         = (static_cast<UINT64>(1) << 12);   ///< Utilities
+  static const CamxLogGroup CamxLogGroupSync          = (static_cast<UINT64>(1) << 13);   ///< Sync
+  static const CamxLogGroup CamxLogGroupMemSpy        = (static_cast<UINT64>(1) << 14);   ///< MemSpy
+  static const CamxLogGroup CamxLogGroupFormat        = (static_cast<UINT64>(1) << 15);   ///< Format
+  static const CamxLogGroup CamxLogGroupCore          = (static_cast<UINT64>(1) << 16);   ///< Core
+  static const CamxLogGroup CamxLogGroupHWL           = (static_cast<UINT64>(1) << 17);   ///< HWL
+  static const CamxLogGroup CamxLogGroupChi           = (static_cast<UINT64>(1) << 18);   ///< CHI
+  static const CamxLogGroup CamxLogGroupDRQ           = (static_cast<UINT64>(1) << 19);   ///< DRQ
+  static const CamxLogGroup CamxLogGroupFD            = (static_cast<UINT64>(1) << 20);   ///< FD
+  static const CamxLogGroup CamxLogGroupIQMod         = (static_cast<UINT64>(1) << 21);   ///< IQ module
+  static const CamxLogGroup CamxLogGroupLRME          = (static_cast<UINT64>(1) << 22);   ///< LRME
+  static const CamxLogGroup CamxLogGroupCVP           = (static_cast<UINT64>(1) << 22);   ///< CVP
+  static const CamxLogGroup CamxLogGroupNCS           = (static_cast<UINT64>(1) << 23);   ///< NCS
+  static const CamxLogGroup CamxLogGroupMeta          = (static_cast<UINT64>(1) << 24);   ///< Metadata
+  static const CamxLogGroup CamxLogGroupAEC           = (static_cast<UINT64>(1) << 25);   ///< AEC
+  static const CamxLogGroup CamxLogGroupAWB           = (static_cast<UINT64>(1) << 26);   ///< AWB
+  static const CamxLogGroup CamxLogGroupAF            = (static_cast<UINT64>(1) << 27);   ///< AF
+  static const CamxLogGroup CamxLogGroupSWP           = (static_cast<UINT64>(1) << 28);   ///< SW Process
+  static const CamxLogGroup CamxLogGroupHist          = (static_cast<UINT64>(1) << 29);   ///< Histogram Process
+  static const CamxLogGroup CamxLogGroupBPS           = (static_cast<UINT64>(1) << 30);   ///< BPS
+  static const CamxLogGroup CamxLogGroupDebugData     = (static_cast<UINT64>(1) << 31);   ///< Debug-Data Framework -
+                                                                                          ///  3A Debug-Data & Tuning-metadata
+  static const CamxLogGroup CamxLogGroupStatsNN       = CamxLogGroupStats;                ///< StatsNN, share for now
+  static const CamxLogGroup CamxLogGroupQSAT          = (static_cast<UINT64>(1) << 32);   ///< QSAT
+  static const CamxLogGroup CamxLogGroupQLL           = CamxLogGroupStats;                ///< QLL share for now
+  static const CamxLogGroup CamxLogGroupPSM           = (static_cast<UINT64>(1) << 33);   ///< PSM
+
+adb shell setprop persist.vendor.camera.systemLogEnable TRUE
+adb shell setprop vendor.debug.camera.overrideLogLevels 0xFF
+adb shell setprop persist.vendor.camera.logWarningMask 0xFFFFFFFF
+adb shell setprop persist.vendor.camera.logInfoMask 0xFFFFFFFF
+adb shell setprop persist.vendor.camera.logConfigMask 0xFFFFFFFF
+adb shell setprop persist.vendor.camera.logCoreCfgMask 0xFFFFFFFF
+adb shell setprop persist.vendor.camera.logVerboseMask 0xFFFFFFFF
+adb shell setprop persist.vendor.camera.logEntryExitMask 0xFFFFFFFF
+persist.vendor.camera.logVerboseMask
+
+adb shell setprop persist.vendor.camera.enableFPSLog TRUE
+adb shell setprop persist.vendor.camera.logDumpMask 0
+
+////Disable all logs
+adb shell setprop persist.vendor.camera.systemLogEnable FALSE && adb shell setprop vendor.debug.camera.overrideLogLevels 0 && adb shell setprop persist.vendor.camera.logWarningMask 0 && adb shell setprop persist.vendor.camera.logInfoMask 0 && adb shell setprop persist.vendor.camera.logCoreCfgMask 0 && adb shell setprop persist.vendor.camera.logVerboseMask 0 && adb shell setprop persist.vendor.camera.logEntryExitMask 0xFFFFFFFF
+
+Camera kernel debug
+adb shell "echo 0xFFFFFFFF > /sys/module/camera/parameters/debug_mdl"
+\LA.UM.9.16\LINUX\android\out\target\product\SX1\dlkm\lib\modules
+build bootimage
+/sys/devices/platform/soc/5c1b000.qcom,cci0
+
+Dump EEPROM data to a file
+adb shell setprop vendor.debug.camera.dumpSensorEEPROMData 1 (true)
+
+adb shell "echo afFullsweep=1 > /vendor/etc/camera/camxoverridesettings.txt"
+
+adb shell setprop persist.vendor.camera.autoInputImageDumpMask 0
+adb shell setprop persist.vendor.camera.TFEFrameRegDumpMask 0
+adb shell setprop persist.vendor.camera.autoImageDumpMask 0
+adb shell setprop persist.vendor.camera.autoImageDumpTFEoutputPortMask 0
+adb shell setprop persist.vendor.camera.dumpNodeProcessingInfo TRUE
+adb shell setprop persist.vendor.camera.enableMCTF FALSE
+
+
+
+//// EIS enalbe ////
+adb shell setprop vendor.debug.camera.eisv2enable 2
+adb shell setprop vendor.debug.camera.eisv3enable 2
+adb shell setprop vendor.debug.camera.overrideForceEISSupport TRUE
+adb shell "echo EISV3Enable=2 > /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo overrideForceEISSupport=TRUE > /vendor/etc/camera/camxoverridesettings.txt"
+
+adb shell "echo EISV3FrameDelay=35 > /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo EISWidthMargin=0.25 >> /vendor/etc/camera/eisoverridesettings.txt"
+adb shell "echo EISHeightMargin=0.25 >> /vendor/etc/camera/eisoverridesettings.txt"
+adb shell "echo EISLDCGridEnabled=1 >> /vendor/etc/camera/eisoverridesettings.txt"
+
+//// EIS calibration ////
+adb shell "echo EISv3GyroDumpEnabled=1 >>/vendor/etc/camera/eisoverridesettings.txt"
+adb shell "echo EISv2OperationMode=2 >>/vendor/etc/camera/eisoverridesettings.txt"
+adb shell "echo EISv3OperationMode=2 >>/vendor/etc/camera/eisoverridesettings.txt"
+adb shell "echo fovcEnable=0 >> /vendor/etc/camera/camxoverridesettings.txt"
+
+// Frame water mark /// 
+adb shell "echo watermarkImage=TRUE >> /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo watermarkOffset=0x0 >> /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo forceDisableUBWCOnIfeIpeLink=1 >> /vendor/etc/camera/camxoverridesettings.txt"
+
+CamxResult Actuator::MoveFocus
+	result = m_pActuatorData->CreateMoveFocusCmd
+		result = pMoveFocusCmdBuffer->CommitCommands();
+			result = m_pHwContext->Submit(m_pParentNode->GetCSLSession(), m_hActuatorDevice, pPacket);
+	
+	
+///// Respective resolution for video and preview	
+
+Code flow:
+CDKResult UsecaseMultiCamera::CreateRDIResources
+	ChiSensorModeInfo* ChxSensorModeSelect::FindBestSensorMode
+
+CDKResult Pipeline::CreateDescriptor -> set Is_Video mode
+	ChiSensorModeInfo* ChxSensorModeSelect::FindBestSensorMode
+	
+CHISENSORMODEINFO* UsecaseSelector::GetSensorModeInfo
+	ChiSensorModeInfo* ChxSensorModeSelect::FindBestSensorMode
+
+
+Verify log:
+
+07-07 02:38:30.020 I/CHIUSECASE(  926): [CORE_CFG ] chxsensorselectmode.cpp:651 FindBestSensorMode() Selected Usecase: 8, SelectedMode W=4208, H=3120, FPS:30, NumBatchedFrames:1, modeIndex:0
+07-07 02:38:30.028 I/CHIUSECASE(  926): [CORE_CFG ] chxsensorselectmode.cpp:651 FindBestSensorMode() Selected Usecase: 8, SelectedMode W=4208, H=3120, FPS:30, NumBatchedFrames:1, modeIndex:0
+07-07 02:38:30.031 I/CHIUSECASE(  926): [CORE_CFG ] chxsensorselectmode.cpp:651 FindBestSensorMode() Selected Usecase: 8, SelectedMode W=4208, H=3120, FPS:30, NumBatchedFrames:1, modeIndex:0
+07-07 02:38:30.031 I/CHIUSECASE(  926): [CORE_CFG ] chxsensorselectmode.cpp:651 FindBestSensorMode() Selected Usecase: 8, SelectedMode W=4208, H=3120, FPS:30, NumBatchedFrames:1, modeIndex:0
+
+/////
+	
+adb shell stop thermal-engine
+adb shell stop thermal
+adb shell "echo 1 > /sys/devices/system/cpu/cpu0/online"
+adb shell "echo 1 > /sys/devices/system/cpu/cpu1/online"
+adb shell "echo 1 > /sys/devices/system/cpu/cpu2/online"
+adb shell "echo 1 > /sys/devices/system/cpu/cpu3/online"
+adb shell "echo 1 > /sys/devices/system/cpu/cpu4/online"
+adb shell "echo 1 > /sys/devices/system/cpu/cpu5/online"
+adb shell "echo 1 > /sys/devices/system/cpu/cpu6/online"
+adb shell "echo 1 > /sys/devices/system/cpu/cpu7/online"
+sleep 1
+adb shell "echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
+adb shell "echo performance > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor"
+adb shell "echo performance > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor"
+adb shell "echo performance > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor"
+adb shell "echo performance > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor"
+adb shell "echo performance > /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor"
+adb shell "echo performance > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor"
+adb shell "echo performance > /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor"
+
+
+adb shell stop thermal-engine && adb shell "echo 1 > /sys/devices/system/cpu/cpu0/online" && adb shell "echo 1 > /sys/devices/system/cpu/cpu1/online" && adb shell "echo 1 > /sys/devices/system/cpu/cpu2/online" && adb shell "echo 1 > /sys/devices/system/cpu/cpu3/online" && adb shell "echo 1 > /sys/devices/system/cpu/cpu4/online" && adb shell "echo 1 > /sys/devices/system/cpu/cpu5/online" && adb shell "echo 1 > /sys/devices/system/cpu/cpu6/online" && adb shell "echo 1 > /sys/devices/system/cpu/cpu7/online"
+adb shell "echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" && adb shell "echo performance > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor" && adb shell "echo performance > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor" && adb shell "echo performance > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor" && adb shell "echo performance > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor" && adb shell "echo performance > /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor" && adb shell "echo performance > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor" && adb shell "echo performance > /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor"
+
+
+adb shell stop logd
+adb shell stop logcat
+logVerboseMask=0x00000
+logInfoMask=0x00000
+traceGroupsEnable=0x00000
+logEntryExitMask=0x00000
+systemLogEnable=FALSE
+adb shell "echo 0x0> /sys/module/cam_debug_util/parameters/debug_mdl"
+
+adb shell "echo enableAsciiLogging=1 >> /vendor/etc/camera/camxoverridesettings.txt"
+
+The pipeline is determined by stream configuration from AP.
+You can compare 1920*1080 and 1920*1440 CHI log for more info about stream classify.
+- overrideLogLevels=0xFF
+- logVerboseMask=0x10080
+- logInfoMask=0x10080
+- logCoreCfgMask=0x10080
+
+For ZSLSnapshotYUVHAL_0 pipeline, there are many OPE instances and you might increase OPE clock as below to have a try.
+
+adb shell "echo tfeClockFrequencyMHz=0xffffffff >> /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo OPEClockFrequencyMHz=0xffffffff >> /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo tfeCamnocBandwidthMBytes=0xFFFFFFFF >> /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo tfeExternalBandwidthMBytes=0xFFFFFFFF >> /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo OPEReadBandwidthMBytes=0xFFFFFFFF >> /vendor/etc/camera/camxoverridesettings.txt"
+adb shell "echo csidClockFrequencyMHz=0xffffffff >> /vendor/etc/camera/camxoverridesettings.txt"
+
+
+/////////////////////////////////////////////////////
+LA.UM.9.16\LINUX\scripts\fih_proj_config.sh  lunch args parse
+/////////////////////////////////////////////////
+
+./build.sh dist -j32 --target_only camx_buildbins 2>&1 | tee build_camx_buildbins_0928.log
+./build.sh dist -j32 --target_only com.qti.feature2.gs.mannar 2>&1 | tee build_com.qti.feature2.gs.mannar_1108.log
+/vendor/qcom/proprietary/chi-cdk/oem/qcom/feature2/chifeature2graphselector/mannar/
+
+\LA.UM.9.16\LINUX\android\out\target\product\ST4\gen\STATIC_LIBRARIES\libcamxgenerated_intermediates\generated
+
+./build.sh dist -j32 --target_only com.morpho.node.imagerefiner 2>&1 | tee build_com.morpho.node.imagerefiner_20220128.log
+./build.sh dist -j32 --target_only com.morpho.feature2.imagesort 2>&1 | tee build_com.morpho.feature2.imagesort_20220128.log
+
+*********** update pipeline ***************
+LINUX\android\vendor\qcom\proprietary\chi-cdk\oem\qcom\chiusecase\common\g_pipelines.cpp <- modify this file and save, then build
+perl vendor/qcom/proprietary/chi-cdk/tools/usecaseconverter/usecaseconverter.pl vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/mimas/common/common_usecase.xml vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/mimas/ vendor/qcom/proprietary/chi-cdk/oem/qcom/chiusecase/common/g_pipelines.cpp holi vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/socidtargetmap.xml
+./build.sh dist -j32 --target_only com.qti.chiusecaseselector 2>&1 | tee build_com.qti.chiusecaseselector_20220131.log
+
+./build.sh dist -j32 --target_only libchiframework 2>&1 | tee build_libchiframework_1108.log
+python vendor/qcom/proprietary/chi-cdk/tools/feature2xmlconverter/feature2xml_to_cpp.py -f -i vendor/qcom/proprietary/chi-cdk/oem/qcom/feature2/chifeature2graphselector/descriptors/xml -o vendor/qcom/proprietary/chi-cdk/oem/qcom/feature2/chifeature2graphselector/descriptors/generated -H vendor/qcom/proprietary/chi-cdk/tools/feature2xmlconverter -m vendor/qcom/proprietary/chi-cdk/oem/qcom/feature2/chifeature2graphselector/descriptors/generated
+python vendor/qcom/proprietary/chi-cdk/tools/logicalcameragenerator/logicalcamcompiler.py -c vendor/qcom/proprietary/chi-cdk/oem/qcom/multicamera/chimcxcameraconfig/configs -o vendor/qcom/proprietary/chi-cdk/core/chiframework
+python vendor/qcom/proprietary/chi-cdk/tools/blmconfig/blmconfigparser.py -i vendor/qcom/proprietary/chi-cdk/oem/qcom/blm/holi/blm.xml -o vendor/qcom/proprietary/chi-cdk/core/chiutils
+python vendor/qcom/proprietary/chi-cdk/tools/usecaseconverter/usecasecomposer.py -i vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/mimas/ -o vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/mimas/ -t holi -d vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/mimas/usecase-components/ -H vendor/qcom/proprietary/chi-cdk/tools/usecaseconverter/xmlheader.txt -c vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/socidtargetmap.xml --log_level debug --debug
+
+
+PipelineManagerImpl: [Shot: 1] starting capture process.
+caecxcontrol.cpp:556: process
+[ VERB][STATS_AEC] caecxcontrol.cpp:1177: runConvergence 
+caecxcontrol.cpp:1191: runConvergence AECXCONVRG ===== Convergence end =====
+PipelineManagerImpl: [Shot: 1] Processing finished
+
+AE
+adb shell setprop persist.vendor.camera.systemLogEnable 1
+adb shell setprop persist.vendor.camera.logWarningMask 0x2000202
+adb shell setprop persist.vendor.camera.logInfoMask 0x2000202
+adb shell setprop persist.vendor.camera.logEntryExitMask 0x2000202
+adb shell setprop persist.vendor.camera.logVerboseMask 0x2000202
+
+adb shell ”echo 0x2000202 > /sys/module/camera/parameters/debug_mdl”
+AF
+adb shell setprop persist.vendor.camera.systemLogEnable 1
+adb shell setprop persist.vendor.camera.logWarningMask 0x800020a
+adb shell setprop persist.vendor.camera.logInfoMask 0x800020a
+adb shell setprop persist.vendor.camera.logEntryExitMask 0x800020a
+adb shell setprop persist.vendor.camera.logVerboseMask 0x800020a
+
+adb shell ”echo 0x800020a > /sys/module/camera/parameters/debug_mdl
+https://developer.android.com/reference/android/hardware/camera2/CaptureResult.html#CONTROL_AF_STATE
+
+adb shell dumpsys media.camera -m android.control.afTrigger,android.control.afState
+
+//////////////// video
+adb shell setprop log.tag.ImageReaderTest VERBOSE
+adb shell setprop vendor.qc2.log.msg 7
+adb shell "echo 0x103f101f > /d/msm_vidc/debug_level"
+
+- overrideLogLevels=0xFF
+- logVerboseMask=0x10080
+- logInfoMask=0x10080
+- logCoreCfgMask=0x10080
+
+//////////// EEPROM write //////////////////////////////
+CamxResult EEPROMData::DataCheckAndWriteBack(BYTE *pBuf, UINT16 bStart)
+{
+    BYTE          bTemp      = 0;
+    CamxResult    result    = CamxResultSuccess;
+    BYTE          *pOTPData = NULL;
+    SettingsInfo headerWriteInfo;
+
+    pOTPData = pBuf;
+    if (pOTPData == NULL) {
+        CAMX_LOG_ERROR(CamxLogGroupSensor, "Invalid EEPROM data address !!!!");
+        result = CamxResultEFailed;
+        return result;
+    }
+
+    //Check LSC values whether greater than 1024
+    for (UINT32 i = 0; i < 1768; i += 2) {
+        temp = (*(pOTPData + bStart + (i + 1)) << 8) + *(pOTPData + bStart + i);
+        if (temp > 1024) {
+            CAMX_LOG_WARN(CamxLogGroupSensor, "Found reversed LSC data");
+            break;
+        }
+        if (i >= 1767) {
+            CAMX_LOG_INFO(CamxLogGroupSensor, "LSC EEPROM data are OK");
+            return result;
+        }
+    }
+
+    //Swap high & low data of LSC section
+    for (UINT32 i = bStart; i < 1768; i += 2) {
+       bTemp                  = *(pOTPData + i);
+       *(pOTPData + i)        = *(pOTPData + (i + 1));
+       *(pOTPData + (i + 1)); = temp;
+    }
+
+    //Write back to EERPOM
+    Utils::Memset(&headerWriteInfo, 0, sizeof(SettingsInfo));
+    headerWriteInfo.regSettingCount = 1;
+    headerWriteInfo.regSetting      = reinterpret_cast<RegisterSetting*>(CAMX_CALLOC(sizeof(RegisterSetting)));
+
+    if (NULL != headerWriteInfo.regSetting) {
+        headerWriteInfo.regSetting[0].registerData = reinterpret_cast<RegisterData*>(CAMX_CALLOC(1768));
+    } else {
+        CAMX_LOG_ERROR(CamxLogGroupSensor, "headerWriteInfo.regSetting is NULL");
+        result = CamxResultEFailed;
+        return result;
+    }
+
+    if (NULL != headerWriteInfo.regSetting[0].registerData) {
+        for (UINT i = 0; i < 1768; i++) {
+            headerWriteInfo.regSetting[0].registerData[i] = *(pOTPData + bStart + i);
+        }
+
+        headerWriteInfo.regSetting[0].registerAddr      = m_pEEbinDriver->versionReadInfo.regSetting[0].registerAddr;
+        headerWriteInfo.regSetting[0].registerDataCount = 1768;
+        headerWriteInfo.regSetting[0].regAddrType       = m_pEEbinDriver->versionReadInfo.regSetting[0].regAddrType;
+        headerWriteInfo.regSetting[0].regDataType       = m_pEEbinDriver->versionReadInfo.regSetting[0].regDataType;
+        headerWriteInfo.regSetting[0].operation         = OperationType::WRITE_SEQUENTIAL;
+
+        CAMX_LOG_VERBOSE(CamxLogGroupSensor,
+                    "Writing: ReadStartAddress: 0x%X, ReadEndAddress: 0x%X",
+                    startAddress,
+                    endAddress);
+        result = WriteEEBinData(&headerWriteInfo);
+    }
+}
+
+//////////////////////////
+build framework jar
+./build.sh dist -j8 --target_only framework-minus-apex
+
+adb push LINUX/android/out/target/product/qssi/system/framework  /system/
+
+repo init --config-name -u ssh://huangjulin@gerrit.fihtdc.com:29418/QC/manifest -b SX1/dev/SM4350 -m V1.32A_BUILD.xml; repo sync -cj32 --no-tags
+repo init --config-name -u ssh://huangjulin@gerrit.fihtdc.com:29418/QC/manifest -b SX1/dev/SM4350 -m 20211223_SX1_S_202000271_Daily.xml; repo sync -cj8 --no-tags
+repo init --config-name -u ssh://huangjulin@gerrit.fihtdc.com:29418/QC/manifest -b OG6/dev/SM6125 -m V3.153_20220218_OG6_S_202000341_Daily.xml --reference=/mnt/5238/review_site/git/QC_19_21; repo sync -cj1 --no-tags
+repo init --config-name -u ssh://huangjulin@gerrit.fihtdc.com:29418/QC/manifest -b SX1/dev/SM4350 -m V1.352_20211206_SX1_R_10000360_Daily.xml --reference=/mnt/5238/review_site/git/QC_19_21
+repo init --config-name -u ssh://huangjulin@gerrit.fihtdc.com:29418/QC/manifest -b SX1/dev/SM4350 -m ST4_202000271_10000440_BUILD.xml --reference=/mnt/5238/review_site/git/QC_19_21; repo sync -cj1 --no-tags
+
+
+\LA.UM.9.16\LINUX\android\out\target\product\SX1\gen\STATIC_LIBRARIES\libcamxgenerated_intermediates\generated\g_sensor
+
+
+./build.sh dist -j8 --target_only SnapdragonCamera 2>&1 | tee build_SnapdragonCamera_20220503.log
+LA.UM.9.16\LINUX\android\out\target\product\SX1\vendor\priv-app\SnapdragonCamera
+
+T4 叫出324 log的方式
+adb shell am start-activity -a android.intent.action.MAIN -n com.evenwell.DbgCfgTool/.FunctionList
+
+Follow the adb instructions below to enable CCI register dump CCI_REGISTERS
+adb shell "echo 0xF > /sys/kernel/debug/cam_cci/en_dump_cci0"
+adb shell "echo 0xF > /sys/kernel/debug/cam_cci/en_dump_cci1"
+
+
+##Disable thermal mechanism
+adb root
+adb remount
+adb shell rm /vendor/bin/thermal-engine
+
+
+
+
+
+
+node dump path : /data/vendor/camera
+
+data space
+ /vendor/qcom/proprietary/camx/src/core/hal/camxcommontypes.h 
