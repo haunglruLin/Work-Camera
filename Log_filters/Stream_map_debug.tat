@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="MapOutputPortToOutputStream" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="configure_streams" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="Camera3-Device" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="isSWMFSnapshot:1" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="Selected feature graph" />
+    <filter enabled="y" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="CreateFeatureGraph() Number of streams mapped" />
+    <filter enabled="y" excluding="n" description="" foreColor="d2691e" type="matches_text" case_sensitive="n" regex="n" text="SetPipelineStatus" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="SnapCam_CaptureModule" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="camxmfnr" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="0xb400006ddccdd290" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="0xb400006dfccd8a18" />
+    <filter enabled="n" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="RTBayer2YUVSWMFJPEG" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="MapStreamPerFeature" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="DoStreamNegotiation" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="UpdateOutputStreams" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="DoFeatureCreate" />
+  </filters>
+</TextAnalysisTool.NET>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="colorFilterArrangement" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="&lt;width&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="&lt;height&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="&lt;registerAddr&gt;0x0101&lt;/registerAddr&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="&lt;initSetting&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="&lt;frameRate&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="&lt;activeDimension&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="&lt;dummyInfo&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="&lt;left&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="&lt;right&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="&lt;top&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="&lt;bottom&gt;" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="resSettings" />
+    <filter enabled="y" excluding="n" description="" foreColor="6a5acd" type="matches_text" case_sensitive="n" regex="n" text="outputPixelClock" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="frameLengthLines" />
+    <filter enabled="y" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="lineLengthPixelClock" />
+    <filter enabled="y" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="minHorizontalBlanking" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="minVerticalBlanking" />
+  </filters>
+</TextAnalysisTool.NET>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="lowmemorykiller" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="lowmemorykiller: Kill" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="ActivityManager" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="oom_reaper" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="thrashing" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="wmark" />
+    <filter enabled="y" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="Zone:" />
+    <filter enabled="y" excluding="n" description="" foreColor="2e8b57" type="matches_text" case_sensitive="n" regex="n" text="medium pressure" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="super critical" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="TestRunner" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CtsTestRunListener" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="QC2Comp" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="CCodec" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="ImageReaderTest" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CameraService" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="CameraProviderManager" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="HeicCompositeStream" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Camera3-HeicComposite-AppSegmentStream" />
+  </filters>
+</TextAnalysisTool.NET>

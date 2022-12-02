@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="False">
+  <filters>
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="AF SAD index is out of bounds" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="FQCLog/Camera2BasicFragment:" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="SnapCam_CaptureModule: " />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text=" JPEG_SW_" />
+    <filter enabled="n" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="process_capture_request()" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="SetPipelineStatus(" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="CameraService" />
+    <filter enabled="y" excluding="n" description="" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="AutoFocus" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="FQCLog" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="[ERROR][STATS_AF]" />
+  </filters>
+</TextAnalysisTool.NET>

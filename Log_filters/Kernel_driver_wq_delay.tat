@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="onImageAvailable" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="ZSLBurstCaptureCommand" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="onCaptureStarted" />
+    <filter enabled="y" excluding="n" description="" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Encoding Completed" />
+    <filter enabled="y" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="jpege_engine_hybrid_start" />
+    <filter enabled="y" excluding="n" description="" foreColor="6495ed" type="matches_text" case_sensitive="n" regex="n" text="onCaptureCompleted" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text=" __cam_req_mgr_find_dev_name:" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CAM_CameraUtil: Show fatal error dialog" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="BufferQueue has been abandoned" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Burst mode selected" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="configure_stream" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="Camera3-Device" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="SnapCam_" />
+    <filter enabled="y" excluding="n" description="" foreColor="6a5acd" type="matches_text" case_sensitive="n" regex="n" text="cameraserver" />
+    <filter enabled="y" excluding="n" description="" foreColor="800080" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="TemperatureConfig: TemperatureMonitor check msm" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="frameMessage:requestID=0" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="found duplicate data" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Not receive image within 1 sec." />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="submit repeating request" />
+    <filter enabled="y" excluding="n" description="" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="ProcessMessage() Shutter: fwkFrameNumber" />
+    <filter enabled="y" excluding="n" description="" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="IsBurstShot() Frame number" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[CORE_CFG][HAL    ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="GetZSLOffsets()" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="ProcessMessage() SOF" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="UpdateTimeStamp() Chi Timestamp sensor" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="StaticSettingPipelinedelay" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="PrintCameraFPS() FRAME FPS" />
+  </filters>
+</TextAnalysisTool.NET>

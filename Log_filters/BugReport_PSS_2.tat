@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="False">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="TOTAL PSS" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="** MEMINFO in pid" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="android.hardware.camera.provider@2.4-service_64" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="------ PROCRANK (/system/xbin/su root procrank) ------" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="------ VIRTUAL MEMORY STATS (/proc/vmstat) ------" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="------ HARDWARE HALS (/system/xbin/su root lshal --all --types=all) ------" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="------ 2.426s was the duration of 'HARDWARE HALS' ------" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="------ PRINTENV (printenv) ------" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="------ KERNEL LOG (logcat -b kernel -v threadtime -v printable -v uid -d *:v) ------" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="------ LIST OF OPEN FILES (/system/xbin/su root lsof) ------" />
+    <filter enabled="n" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="------ SHOW MAP" />
+    <filter enabled="y" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="(/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64) (/system/xbin/su root showmap -q" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text=" /vendor/bin/hw/android.hardware.camera.provider@2.4-service_64" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text=" /vendor/lib64/com.qti.feature2.swmf.so" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text=" /vendor/lib64/hw/com.qti.chi.override.so" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text=" /vendor/lib64/hw/camera.qcom.so" />
+  </filters>
+</TextAnalysisTool.NET>

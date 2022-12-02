@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="ProcessRequest Entry nodeinstance" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="ProcessDownscaleRequest" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="ApplyDownscale:inputPort" />
+    <filter enabled="y" excluding="n" description="" foreColor="d2691e" type="matches_text" case_sensitive="n" regex="n" text="FlipImage" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="[ERROR  ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="808000" type="matches_text" case_sensitive="n" regex="n" text="[ERROR]" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="InitializeDownscaleBufferManagers" />
+  </filters>
+</TextAnalysisTool.NET>

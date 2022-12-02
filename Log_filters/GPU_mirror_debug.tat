@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="ProcessRequest Entry nodeinstance" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="configure_streams" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="CHIGPU" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="nodeinstance 25 m_nodeCaps" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="ZSLSnapshotYUVHAL_com.qti.node.gpu" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="com.qti.node.gpu.CurrentMode" />
+    <filter enabled="n" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="CCodec" />
+    <filter enabled="n" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="[JPEG   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="JPEG_SW_LIB" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="Camera3-Device" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="Camera2ClientBase" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="Camera3DeviceInjectionMethods" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="camxjpegaggrnode" />
+    <filter enabled="y" excluding="n" description="" foreColor="008080" type="matches_text" case_sensitive="n" regex="n" text="camxjpegswencnode.cpp" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="SnapCam_CaptureModule" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="ActivatePipeline" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="InternalZSLYuv2Jpeg" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Graph:RTBayer2YUVJPEG created with srcChiStreams" />
+    <filter enabled="y" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="ProcessUpstreamFeatureRequest" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="JPEG: Map output fwk stream" />
+    <filter enabled="y" excluding="n" description="" backColor="7fffd4" type="matches_text" case_sensitive="n" regex="n" text="WalkAllExtSinkLinks" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="AddCustomFeatureGraphNodeHints" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="AddNodeInstanceToHWMap" />
+    <filter enabled="n" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="[MEMMGR ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="pChiStreamWrapper for Port Index at 0 is null" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Creating Nodes Failed. Going to Destroy sequence" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Failed to finalize init of node" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="SetPipelineStatus" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="FinalizeBufferDimensions" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text=" CAM_RotateImageView" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CAM_OrientMgrImpl: orientation changed" />
+  </filters>
+</TextAnalysisTool.NET>

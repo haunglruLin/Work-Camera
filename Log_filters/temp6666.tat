@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CRM workq schedule delay detected" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="Skip Frame: req" />
+    <filter enabled="n" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="its" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="WifiClientModeImp" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="4h7" />
+    <filter enabled="y" excluding="n" description="" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="jp.co.sharp.android.icharge" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="ActivityManager:" />
+    <filter enabled="y" excluding="n" description="" foreColor="808000" type="matches_text" case_sensitive="n" regex="n" text="MainJobService: BATTERY_PER_CHANGED" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="LPRequestState" />
+  </filters>
+</TextAnalysisTool.NET>

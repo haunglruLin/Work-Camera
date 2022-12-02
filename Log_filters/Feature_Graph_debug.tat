@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text=" SetPipelineStatus" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="rawHDR" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="SelectFeatureGraphforRequestFromTable" />
+    <filter enabled="y" excluding="n" description="" foreColor="808000" type="matches_text" case_sensitive="n" regex="n" text="GetFeatureHint" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="RTBayer2YUVJPEG" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="SnapCam_CaptureModule" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="InitializeRequestInfo()" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="Initialize() Graph-URO" />
+    <filter enabled="y" excluding="n" description="" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="OnProcessRequest() FRO-URO" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="OnExecuteProcessRequest() FRO-URO" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="AreInputDependenciesStatisfied() FRO-URO" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="GetBufferData() FRO-URO" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="ProcessInputDepsForUpstreamFeatureRequest()" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="PopulateDependencyPorts() FRO-URO" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="SetConfigInfo() FRO-URO" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="ProcessGetInputDependencyMessage()" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Memcpy Memcpy_out0" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="DoStreamNegotiation" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="MapStreamPerFeature" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="ActivatePipeline" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="HandleBufferAndResultError()" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="GenerateErrorFromIdentifiers()" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="GetMatchingUsecase" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="imagerefiner" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="imagesort" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Failed to find a pipeline mapping" />
+    <filter enabled="n" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="RTBayer2YUVJPEG" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="IsSkipFeatureGraph" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="LoadFeatureGraphSelectorOps" />
+    <filter enabled="n" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="DumpGraphDescTables" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="Feature2Mapping: Insert" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="CreatePipeline" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="CreateUsecaseObject failed" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="hi1336" />
+    <filter enabled="y" excluding="n" description="" foreColor="6a5acd" type="matches_text" case_sensitive="n" regex="n" text="FinalizeSessionData" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="FinalizeFeatureInstances" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="ProbeChiFeature2Features" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Feature graph manager initialization failed" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="Input pPortName" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="Output pPortName" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="PrepareFeatureData() session: " />
+    <filter enabled="y" excluding="n" description="" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="numPipelines:" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="send dependency complete message" />
+    <filter enabled="y" excluding="n" description="" foreColor="800000" type="matches_text" case_sensitive="n" regex="n" text="drchecker" />
+    <filter enabled="y" excluding="n" description="" foreColor="008080" type="matches_text" case_sensitive="n" regex="n" text="motionsensor" />
+  </filters>
+</TextAnalysisTool.NET>

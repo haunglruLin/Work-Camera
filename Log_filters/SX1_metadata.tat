@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="  Device" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text=".availableToneMapModes" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text=".maxCurvePoints" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text=".sensitivityRange" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="Facing" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="API2 " />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text=".exposureTimeRange" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text=".availableCapabilities" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text=".availableFaceDetectModes" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text=".postRawSensitivityBoostRange" />
+    <filter enabled="y" excluding="n" description="" foreColor="2e8b57" type="matches_text" case_sensitive="n" regex="n" text=".enableZsl" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text=".videoStabilizationMode" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="StreamConfigurations" />
+    <filter enabled="n" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="OUTPUT ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="008000" type="matches_text" case_sensitive="n" regex="n" text="android.sensor.info.pixelArraySize" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="android.scaler.availableMinFrameDurations" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="VideoConfigurationsTable" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="afAvailableModes" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="maxRegions" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="android.control.aeAvailableTargetFpsRanges" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="preview" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="008000" type="matches_text" case_sensitive="n" regex="n" text="== Camera device 0 dynamic info: ==" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="== Camera device 1 dynamic info: ==" />
+  </filters>
+</TextAnalysisTool.NET>

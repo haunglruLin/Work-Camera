@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="cam" />
+    <filter enabled="n" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="snapcam" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CAM-SENSOR" />
+    <filter enabled="y" excluding="n" description="" foreColor="6495ed" type="matches_text" case_sensitive="n" regex="n" text="CAM-ACTUATOR" />
+    <filter enabled="n" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="CAM-EEPROM" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="CAM-FLASH" />
+    <filter enabled="y" excluding="n" description="" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="CAM-RES" />
+    <filter enabled="n" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="CAM-MEM" />
+    <filter enabled="y" excluding="n" description="" foreColor="808000" type="matches_text" case_sensitive="n" regex="n" text="CAM-UTIL" />
+    <filter enabled="n" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="CAM-CPAS" />
+    <filter enabled="n" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="CAM-PERF" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="CAM-CCI" />
+    <filter enabled="y" excluding="n" description="" foreColor="2e8b57" type="matches_text" case_sensitive="n" regex="n" text="CAM-CRM" />
+    <filter enabled="n" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="CAM-OPE" />
+    <filter enabled="n" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CAM-IO-ACCESS: cam_io_w_mb" />
+    <filter enabled="n" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CAM-IO-ACCESS: cam_io_r_mb" />
+    <filter enabled="n" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][SENSOR ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][SENSOR ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][HAL    ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][HWL    ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][META   ]" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][CORE   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][STATS_AF ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="[CORE_CFG ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="[CORE_CFG][SENSOR ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="[CORE_CFG][HWL    ]" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[ENTRY][HAL    ]" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[ENTRY][CSL    ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][HWL    " />
+    <filter enabled="y" excluding="n" description="" foreColor="808000" type="matches_text" case_sensitive="n" regex="n" text="[ INFO][HAL    ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="[ INFO][HWL    ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="[ INFO][SENSOR ]" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[WARN   ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="[ WARN][SENSOR ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="[STATS_AF]" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [CORE_CFG][HAL    ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [CORE_CFG][CORE   ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ERROR][UTILS  ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ERROR][CORE   ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="6a5acd" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ VERB][NCS    ]" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ VERB][CORE   ]" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ INFO][CORE   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ INFO][PPROC  ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [REQMAP][CORE   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ INFO][IQMod  ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ INFO][STATS_AEC]" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ WARN][STATS_AEC]" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ERROR][CORE   ]" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ERROR][HWL    ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ DUMP][HAL    ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [FULL   ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [INFO   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [WARN   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [CORE_CFG ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [VERBOSE]" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [CONFIG ]" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [DUMP   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="008080" type="matches_text" case_sensitive="n" regex="n" text="CHIUSECASE: [ERROR  ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="CHIGPU  : [INFO   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CHIGPU  : [VERBOSE]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="denied" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="beginning of crash" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="backtrace:" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="crash_dump64" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="DEBUG   :" />
+    <filter enabled="n" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="currentPositionDAC" />
+    <filter enabled="n" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="com.google.android.apps.cameralite.testing.e2e.snippet" />
+    <filter enabled="n" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="GetMetadataByTag" />
+    <filter enabled="n" excluding="n" description="" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="SetMetadataByTagInternal" />
+    <filter enabled="n" excluding="n" description="" foreColor="fa8072" type="matches_text" case_sensitive="n" regex="n" text="QueryVendorTagLocation" />
+    <filter enabled="n" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="dlopen: dlopen failed" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CaptureFragmentPeer: Transitioning UI" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CaptureUiController: new target config" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CaptureUiController: most recent mode switch" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="CameraService" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CameraProviderManager" />
+    <filter enabled="y" excluding="n" description="" foreColor="800000" type="matches_text" case_sensitive="n" regex="n" text="CameraDeviceClient" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="HdrResolutionSelector" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="HdrCameraHardwareInitia" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="y" regex="n" text="pck" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="CAM_CameraDeviceOpener" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="CameraStateMachineImpl" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="VideoCameraHardwareInit" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="vendor.camera.aux.packagelist" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="TestRunner" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="CameraManagerGlobal" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="android.permission.SYSTEM_CAMERA" />
+    <filter enabled="n" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="mmon.deviceinf" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="CHIGPU" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ INFO][STATS  ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ERROR][STATS  ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="EventTimeLogger" />
+    <filter enabled="y" excluding="n" description="" foreColor="2e8b57" type="matches_text" case_sensitive="n" regex="n" text="TimerWrapper" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="PipelineManagerImpl" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="TemperatureConfig" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="JPEG_SW_LIB" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="MediaCodec" />
+    <filter enabled="y" excluding="n" description="" backColor="7fffd4" type="matches_text" case_sensitive="n" regex="n" text="ImageProcessingPipeline" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="qdgralloc" />
+    <filter enabled="y" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="ImageProcessingManagerI" />
+    <filter enabled="y" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="ProcessingStateMachine" />
+    <filter enabled="y" excluding="n" description="" backColor="add8e6" type="matches_text" case_sensitive="n" regex="n" text="PortraitImageProcessing" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="tflite" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="MediaProvider" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ INFO][FD     ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ WARN][CSL    ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="EISV3   : [ERROR  ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="EISV3   : [INFO   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="EISV3   : [VERBOSE]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="CtsTestRunListener" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="TestExecutor" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="Camera3-Device" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="Camera3-HeicCompositeStream" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="CameraTraces" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="Camera3-CompositeStream" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="MediaRecorder" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="MPEG4Writer" />
+    <filter enabled="y" excluding="n" description="" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="GetNoiseModelEntry" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="RecordingTest" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="008000" type="matches_text" case_sensitive="n" regex="n" text="super critical pressure event triggered" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="medium pressure event triggered" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="lowmemorykiller: Kill" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="Skip Frame: req" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="RecordingState:" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="CaptureFragmentPeer:" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="harmony" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="shsystemlogger" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CamxResultExtCoreSOFWatchDogTimeout" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[STATS_AWB]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="CamX    : [ INFO][JPEG   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="Camera2-Parameters" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="ViewfinderFragmentPeer" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="CamcorderRecordingProfi" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="PixelCameraKitProviderI" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="TopLayoutFragmentPeer" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Thermal-Lib" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="ThermalEngine" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="ImageReaderTest" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="heic" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="[ VERB][STATS_AEC]" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="[ WARN][DD_FWK ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="beginning of kernel" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="beginning of main" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[ DUMP][DRQ    ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="FQCLog/Camera2BasicFragment" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="ErrorCode:" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Camera2RawFragment" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="FQCLog/FQCTestResultDialog" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="[ cut here ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="NightModeCaptureParamet" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="NightModeBurstCaptureCo" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="NightModeCameraHardware" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="NightModeCameraManagerB" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="Shot" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CHISWMFNR" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="camxmfnrwrapper" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="camxmfnr: " />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="lowmemorykiller" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Client trying to use after releasing the ImageBuffer" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Explicit concurrent copying GC" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="PhotoModeCameraManager" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="PhotoCameraManagerImpl" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="check package" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Perhaps some tasks are too long, or the pool is too small." />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="PrintDebugPDAFData()" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Flash resources initialization failed" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="nativeloader" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="SIGABRT" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="CreateAllSensorModuleSetManagers" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="ItsSerializer" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="ExifInterface" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="GetVendorTagValues() Invalid thumbnail dimensions received." />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="cam_tfe_log_tfe_in_debug_status: 253 camif debug" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="EEPROM read failed" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="LoadEEPROMLibrary() EEPROMName " />
+    <filter enabled="n" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="[META   ]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="SetCameraSmoothInfo" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="SnapCam_CaptureModule" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="unstable" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="configure_streams()" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="InternalZSLYuv2Jpeg" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="_capacity" />
+  </filters>
+</TextAnalysisTool.NET>

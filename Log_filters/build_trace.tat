@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="create_mk.sh" />
+    <filter enabled="n" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="holi.mk" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff69b4" type="matches_text" case_sensitive="n" regex="n" text="/bin/ls: cannot access 'vendor/qcom/proprietary/prebuilt_HY11/target/product/holi/BP_INCLUSION': No such file or directory" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff69b4" type="matches_text" case_sensitive="n" regex="n" text="/bin/ls: cannot access 'vendor/qcom/proprietary/prebuilt_HY11/target/product/qssi/BP_INCLUSION': No such file or directory" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="Compile using modified AOSP tree supporting full vendor value-adds" />
+    <filter enabled="y" excluding="n" description="" foreColor="008080" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="out/soong/.bootstrap/bin/soong_build" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="out/soong/.minibootstrap/bpglob" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="] target" />
+  </filters>
+</TextAnalysisTool.NET>

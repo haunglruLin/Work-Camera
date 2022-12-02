@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="CAM-EEPROM: cam_eeprom_read_memory: 45: slave-addr" />
+    <filter enabled="n" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="cam_cci_read: 1415: sid" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text=" cam_camera_cci_i2c_read_seq: 87: addr = 0xa04" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text=" CAM-SENSOR: cam_camera_cci_i2c_read_seq: 90" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="cam_cci_data_queue: 825: cmd_size" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text=" CAM-CCI: cam_cci_i2c_write: 1455: set param sid" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="cam_cci_read_bytes_v_1_2: 1630: Bytes to read" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="sensor_id" />
+    <filter enabled="n" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="CAM-SENSOR: cam_camera_cci_i2c_read_seq: 90: Byte" />
+    <filter enabled="y" excluding="n" description="" foreColor="2e8b57" type="matches_text" case_sensitive="n" regex="n" text="CAM_DBG : CAM-SENSOR: cam_cci_i2c_poll: 191: addr" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="HAL3Module()" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="cam_sensor_util_power_" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="CAM-SENSOR: cam_sensor_core_power_" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CAM_DBG : CAM-UTIL: cam_soc_util_set_clk_rate: 428: new_rate 24000000" />
+    <filter enabled="n" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CAM_DBG : CAM-UTIL: cam_soc_util_set_clk_rate:" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="CAM-EEPROM: cam_eeprom_update_slaveInfo: 403: Slave addr: " />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="GetTotalMemoryMapCmdSize() memory map commands totalSize" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="ParseMemoryMapData() Number of memory blocks" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="GetMemorySizeBytes() maxMemmapSize" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CAM-CCI: cam_cci_data_queue: 936: CCI_I2C_M0_Q0_LOAD_DATA_ADDR" />
+    <filter enabled="y" excluding="n" description="" foreColor="808000" type="matches_text" case_sensitive="n" regex="n" text=" cam_cci_i2c_write_table_cmd" />
+    <filter enabled="y" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="CAM-CCI: cam_eeprom_read_memory: 61" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="CAM-SENSOR: cam_sensor_util_power_down" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="msm_cam_sensor_handle_reg_gpio" />
+    <filter enabled="y" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="CAM_DBG : CAM-ACTUATOR" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="seq_type 4" />
+  </filters>
+</TextAnalysisTool.NET>

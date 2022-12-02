@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="is_stable" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="af_state" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Wait until aec is settled" />
+    <filter enabled="n" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="af_util_lock_af" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Wrong input: HALCropWindow width,height" />
+    <filter enabled="n" excluding="n" description="" foreColor="d2691e" type="matches_text" case_sensitive="n" regex="n" text="STATS_AEC" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="Received SAD data" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="af_generate_sad_stats" />
+    <filter enabled="n" excluding="n" description="" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="PopulateGyroData" />
+    <filter enabled="y" excluding="n" description="" foreColor="6a5acd" type="matches_text" case_sensitive="n" regex="n" text="AEC gain" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="af_util_cancel_focus" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="AF Inactive" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="HandleAFStateTransition" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Gravity samples not available" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CSLHwLensActuator" />
+    <filter enabled="n" excluding="n" description="" foreColor="008b8b" type="matches_text" case_sensitive="n" regex="n" text="Gyro samples not available" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="PDAFType" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ffff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="ProcessingNodeFinalizeInitialization()" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="notifyAutoFocus" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Camera2-FrameProcessor" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Begin CONFIG:" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="FINAL stream[0]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Acquired actuator(fp5510)" />
+    <filter enabled="y" excluding="n" description="" backColor="7fffd4" type="matches_text" case_sensitive="n" regex="n" text="cam_sensor_util_request_gpio_table" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Camera2-Metadata:" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="CSLHwImageSensor" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="Choreographer" />
+    <filter enabled="y" excluding="n" description="" foreColor="00008b" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="UpdateControlAFState" />
+    <filter enabled="y" excluding="n" description="" foreColor="008080" type="matches_text" case_sensitive="n" regex="n" text="ReadFocusMode() " />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="AFDestroy " />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="~AutoFocusNode" />
+    <filter enabled="y" excluding="n" description="" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="n" text="CanSkipAlgoProcessing" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="CameraService" />
+    <filter enabled="y" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="ZSLPreviewRaw_LT1080p_AutoFocus0" />
+    <filter enabled="y" excluding="n" description="" backColor="7fffd4" type="matches_text" case_sensitive="n" regex="n" text="jp.naver.line.android/com.linecorp.line.camerascanner.main.CameraScannerActivity" />
+    <filter enabled="y" excluding="n" description="" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="Initialized ZSLPreviewRaw_LT1080p" />
+    <filter enabled="y" excluding="n" description="" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="ProcessRequest() chiFrameNum" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="PublishPDLibOutput() PDaf input pDefocus" />
+    <filter enabled="y" excluding="n" description="" backColor="add8e6" type="matches_text" case_sensitive="n" regex="n" text="SetAFFocusAndRunMode" />
+    <filter enabled="y" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="notifyAutoExposure" />
+    <filter enabled="y" excluding="n" description="" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text=" ProcessAFStatusUpdate" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="008000" type="matches_text" case_sensitive="n" regex="n" text="af_util_lock_af called" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffa500" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="waitForNextRequestLocked" />
+    <filter enabled="y" excluding="n" description="" foreColor="ffffff" backColor="4169e1" type="matches_text" case_sensitive="n" regex="n" text="AfTrigger is here, triggerId" />
+    <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="ProcessCaptureResult" />
+  </filters>
+</TextAnalysisTool.NET>

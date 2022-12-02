@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="SurfaceTextureBurstCallback" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="Testing camera #" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="Too many frame intervals out of frame rate bound" />
+    <filter enabled="n" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="n" text="Frame #" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="Wait for surface texture callback" />
+    <filter enabled="n" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="PublishPerFrameSensorMetaData" />
+    <filter enabled="n" excluding="n" description="" foreColor="2e8b57" type="matches_text" case_sensitive="n" regex="n" text="ProcessResults()" />
+    <filter enabled="y" excluding="n" description="" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="n" text="slop range " />
+    <filter enabled="y" excluding="n" description="" foreColor="ffff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Out of bounds!!" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="ProcessAndReturnFinishedResults" />
+    <filter enabled="y" excluding="n" description="" foreColor="00ff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="Returning framework result Frame" />
+    <filter enabled="y" excluding="n" description="" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="NotifyNodeMetadataDone" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="NotifyNodeConfigDone" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="ExecuteProcessRequest" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff00ff" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="TemperatureConfig" />
+    <filter enabled="n" excluding="n" description="" foreColor="7fffd4" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="TemperatureMonitor2" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff00ff" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="onDrawFrame" />
+    <filter enabled="n" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="not ready on link" />
+    <filter enabled="n" excluding="n" description="" foreColor="7fff00" backColor="000000" type="matches_text" case_sensitive="n" regex="n" text="framework result metadata" />
+  </filters>
+</TextAnalysisTool.NET>
